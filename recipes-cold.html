@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="./js/index.js"></script>
   </head>
-  <body>
+  <body class="page-recipes">
     <nav>
       <ul>
         <li>
@@ -21,16 +21,18 @@
         </li>
       </ul>
       <ul>
-        <li><a href="./recipes.html">Recipes</a></li>
         <li><a href="./recipes-hot.html">Recipes(Hot)</a></li>
         <li><a href="./recipes-cold.html">Recipes(Cold)</a></li>
       </ul>
     </nav>
-    <article>
+    <main class="component-recipes">
       <h1>Welcome to Coffee Lover's | Cold Recipes
-        <span role="img" aria-label="cold face" class="react-emojis" style="line-height: 1">🥶</span>
+        <span role="img" aria-label="cold face" class="react-emojis" style="line-height: 1">&nbsp;🥶</span>
       </h1>
-      <p></p>
-    </article>
+      <p/>
+    </main>
   </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", hotRecipes('iced'));
+  </script>
 </html>

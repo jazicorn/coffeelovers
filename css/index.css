@@ -28,6 +28,15 @@ body {
   flex-direction: column;
 }
 
+.page-recipes {
+  margin: 0;
+  padding: 1em;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 nav {
   margin: 0 0 1em 0;
   padding: 0;
@@ -36,6 +45,7 @@ nav {
   background-color: #e7e5e4;
   display: flex;
   flex-direction: row;
+  flex-shrink: 0;
   justify-content: space-between;
 }
 
@@ -64,7 +74,7 @@ nav > ul > li {
   height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: col;
+  flex-direction: column;
   place-content: center;
   place-items: center;
 }
@@ -78,14 +88,27 @@ a:hover {
   color: #FF5733;
 }
 
-article {
-  margin: 0 0 1em 0;
+main {
+  margin: 0;
   padding: 0;
   height: 100%;
   width: inherit;
   display: flex;
-  flex-direction: col;
+  flex-direction: column;
+  background-color: #78716c;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  place-items: center;
+}
+
+.component-banner-home {
   place-content: center;
   place-items: center;
-  background-color: #78716c;
 }
