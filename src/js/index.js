@@ -21,7 +21,7 @@ const recipes = async (category) => {
                 <li>${recipe.title}</li>
                 <li>${recipe.description}</li>
                 <li>${recipe.ingredients}</li>
-                <li>${recipe.image}</li>
+                <li><img src="${recipe.image}" alt="${recipe.title}" style="width:184px; height:184px;"></li>
             </ul>
         `
     });
