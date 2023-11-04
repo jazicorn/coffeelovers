@@ -1,5 +1,4 @@
-
-const hotRecipes = async (category) => {
+const recipes = async (category) => {
 
     let headers = new Headers([
         ['Content-Type', 'application/json'],
