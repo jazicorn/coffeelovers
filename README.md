@@ -1,6 +1,6 @@
 # Coffee Lover's
 
-Website to checkout your favorite coffee recipes. You can checkout the website [here](jazicorn.github.io/coffeelovers/)
+Website to checkout your favorite coffee recipes. You can checkout the website [here](https://jazicorn.github.io/coffeelovers/)
 
 ## API's
 > [Sample API Coffee](https://sampleapis.com/api-list/coffee)
@@ -12,7 +12,7 @@ Website to checkout your favorite coffee recipes. You can checkout the website [
 
 ## Install
 
-#### Clone Directory
+### Clone Directory
 
 ```bash
 # Command 1:
@@ -22,7 +22,7 @@ git clone https://github.com/jazicorn/coffeelovers.git
 cd coffeelovers
 ```
 
-#### Setup
+### Setup
 
 In order to run this project locally, please first make sure **node runtime** and **npm package manager** are installed:
 - [nodejs](https://nodejs.org/en/download)
@@ -34,7 +34,9 @@ node -v
 npm -v
 ```
 
-#### Local Server
+---
+
+### Local Server
 
 Install dependencies:
 ```bash
@@ -48,7 +50,9 @@ npm run dev
 
 **Now go to your browser and type ***[localhost:1234](http://localhost:1234)*** to access the homepage.**
 
-#### Production Server
+---
+
+### Production Server
 
 This command builds the web app for production:
 ```bash
@@ -62,7 +66,9 @@ npm run start
 
 **Now go to your browser and type ***[localhost:1234](http://localhost:1234)*** to access the homepage.**
 
-#### Optional Commands
+---
+
+### Optional Commands
 
 Removes project cache to rebuild with updated files:
 ```bash
