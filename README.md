@@ -1,5 +1,4 @@
 # Coffee Lover's
-> Your favorite Coffee Recipes
 
 Website to checkout your favorite coffee recipes. You can checkout the website [here](jazicorn.github.io/coffeelovers/)
 
@@ -15,19 +14,21 @@ Website to checkout your favorite coffee recipes. You can checkout the website [
 
 #### Clone Directory
 
-To run the project locally, first clone the project onto your computer with this command:
 ```bash
+# Command 1:
 git clone https://github.com/jazicorn/coffeelovers.git
-```
 
+# Navigate to root directory
+cd coffeelovers
+```
 
 #### Setup
 
-In order to run this project locally, please first make sure **node runtime** and **npm package manager** is installed:
+In order to run this project locally, please first make sure **node runtime** and **npm package manager** are installed:
 - [nodejs](https://nodejs.org/en/download)
 - [npm](https://docs.npmjs.com/cli/v7/configuring-npm/install)
 
-You can check is you already have them installed by checking the versions in your terminal:
+You can check if they're installed by checking the versions in your terminal:
 ```bash
 node -v
 npm -v
@@ -35,14 +36,35 @@ npm -v
 
 #### Local Server
 
-If you have nodejs and npm installed, then you can install a http server by running this command in the terminal:
+Install dependencies:
 ```bash
-npm install http-server -g
+npm install
 ```
 
-Navigate to the coffeelovers folder you cloned earlier and navigate to the top directory. In the terminal type:
+To run this project in development:
 ```bash
-http-server
+npm run dev
 ```
 
-🥳 **Now go to your browser and type ***localhost:8080*** to access the homepage.**
+**Now go to your browser and type ***[localhost:1234](http://localhost:1234)*** to access the homepage.**
+
+#### Production Server
+
+This command builds the web app for production:
+```bash
+npm run build
+```
+
+After the web app is compiled, this command serves the web app for production:
+```bash
+npm run start
+```
+
+**Now go to your browser and type ***[localhost:1234](http://localhost:1234)*** to access the homepage.**
+
+#### Optional Commands
+
+Removes project cache to rebuild with updated files:
+```bash
+npm run clean
+```
