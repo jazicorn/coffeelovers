@@ -24,7 +24,7 @@ cd coffeelovers
 
 ### Setup
 
-In order to run this project locally, please first make sure **node runtime** and **npm package manager** are installed:
+In order to run this project locally, install <ins>***node runtime*** </ins> and  <ins>***npm package manager***</ins>. The links below will walk you through installing both programs:
 - [nodejs](https://nodejs.org/en/download)
 - [npm](https://docs.npmjs.com/cli/v7/configuring-npm/install)
 
@@ -34,14 +34,14 @@ node -v
 npm -v
 ```
 
----
-
-### Local Server
-
-Install dependencies:
+After making sure both node and npm are installed, navigate in the terminal to the coffeelovers folder and at the root of the folder, where the ***package.json*** file is located, run this terminal command to install dependencies:
 ```bash
 npm install
 ```
+
+---
+
+### Local Server
 
 To run this project in development:
 ```bash
