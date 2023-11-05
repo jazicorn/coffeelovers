@@ -17,10 +17,9 @@ const recipes = async (category) => {
     json.forEach((recipe) => {
         recipes += `
             <ul>
-                <li>${recipe.id}</li>
-                <li>${recipe.title}</li>
-                <li>${recipe.description}</li>
-                <li>${recipe.ingredients}</li>
+                <li><span>Name:</span> ${recipe.title}</li>
+                <li><span>Description:</span> ${recipe.description}</li>
+                <li><span>Ingredients:</span> ${recipe.ingredients}</li>
                 <li><img src="${recipe.image}" alt="${recipe.title}" style="width:184px; height:184px;"></li>
             </ul>
         `

@@ -26,6 +26,7 @@ body {
   width: auto;
   display: flex;
   flex-direction: column;
+  color: #44403c;
 }
 
 .page-recipes {
@@ -42,7 +43,8 @@ nav {
   padding: 0;
   height: 3em;
   width: inherit;
-  background-color: #e7e5e4;
+  border-bottom: 1px solid;
+  border-color: #78716c;
   display: flex;
   flex-direction: row;
   flex-shrink: 0;
@@ -55,17 +57,14 @@ nav > ul {
   height: 100%;
   display: flex;
   flex-direction: row;
-  list-style-type: none;
 }
 
 nav > ul:first-of-type {
   width: 5em;
-  background-color: #a8a29e;
 }
 
 nav > ul:last-of-type {
   width: 25em;
-  background-color: #a8a29e;
 }
 
 nav > ul > li {
@@ -95,7 +94,8 @@ main {
   width: inherit;
   display: flex;
   flex-direction: column;
-  background-color: #78716c;
+  border-bottom: 1px solid;
+  border-color: #78716c;
 }
 
 h1 {
@@ -106,6 +106,21 @@ h1 {
   flex-direction: row;
   justify-content: center;
   place-items: center;
+}
+
+main > p > ul {
+  list-style-type: none;
+  padding-bottom: 4px;
+   color: #78716c;
+}
+
+main > p > ul > li {
+  padding-bottom: 2px;
+}
+
+main > p > ul > li > span {
+  font-family: Lato-Bold;
+  color: #44403c;
 }
 
 .component-banner-home {
